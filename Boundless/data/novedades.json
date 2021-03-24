@@ -1,0 +1,34 @@
+{
+    "articulos": [{
+            "titulo": "[U.R.P] Bienvenido al infierno",
+            "contenido": "Únete en este evento a los guerreros del inframundo para derrortar a la Reina Diane y obtén jugosas recompensas.",
+            "juego": "Ultimate Rap Battle",
+            "fecha": "19.07.2020",
+            "tags": "#Evento #URB #Canciones",
+            "enlace": "vistaProximamente.jsp",
+            "imagen": "imagenes/articulos/inferno.jpg"
+
+        },
+        {
+            "titulo": "[KoS] Evento de las Linternas",
+            "contenido": "Comienza el Festival de las Linternas de Teivath.¡Participa para obtener una skin exclusiva para Roaz!",
+            "juego": "Ultimate Rap Battle",
+            "fecha": "12.07.2020",
+            "tags": "#Evento #Skin #KoS #KingOfSeven",
+            "enlace": "vistaProximamente.jsp",
+            "imagen": "imagenes/articulos/eventoLinternas.jpg"
+
+        },
+        {
+
+            "titulo": "[BD] ¡Bienvenida Clarin!",
+            "contenido": "Clarin, la dulce maga de nieve, acaba de llegar al continente. Reclútala en el nuevo banner para que se una al Imperio.",
+            "juego": "Blue Destiny",
+            "fecha": "05.07.2020",
+            "tags": "#Heroe #Skin #BD #BlueDestiny",
+            "enlace": "vistaProximamente.jsp",
+            "imagen": "imagenes/articulos/clarin.jpg"
+
+        }
+    ]
+}

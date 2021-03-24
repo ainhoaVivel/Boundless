@@ -1,0 +1,57 @@
+<PRODUCTOS>
+    <!--PRIMER JUEGO (BD)-->
+    <BD>
+        <TITULO>Blue Destiny</TITULO>
+        <FECHA>23 de Enero de 2020</FECHA>
+        <LANZAMIENTO>Enero 2020</LANZAMIENTO>
+        <GENERO>Plataformas, ARPG, Mundo abierto, Gacha, Narrativo, CCG</GENERO>
+        <COSTE>Gratuito (incluye compras in-game)</COSTE>
+        <REQUISITOS>4GB RAM, 20GB almacenamiento disponible</REQUISITOS>
+        <PLATAFORMA>PC, iOS, Android, PS4</PLATAFORMA>
+        <IMAGEN>imagenes/BD/BlueDestinySmall.jpg</IMAGEN>
+        <BANNER>imagenes/BD/BDBanner.jpg</BANNER>
+        <WEB>productos/vistaBD.jsp</WEB>
+        <WEB_OFICIAL_N>https://blue-destiny.com/</WEB_OFICIAL_N>
+        <WEB_OFICIAL_E>https://global.destiny-child.com</WEB_OFICIAL_E>
+        <FORM>https://shiftup.zendesk.com/hc/en-us/requests/new</FORM>
+        <SERVER>ONLINE</SERVER>
+        <S_MENSAJE>Sin incidencias</S_MENSAJE>
+    </BD>
+    <!--SEGUNDO JUEGO (URB)-->
+    <URB>
+        <TITULO>U.R.B: Ultimate Rap Battle</TITULO>
+        <FECHA>14 de Septiembre de 2016</FECHA>
+        <LANZAMIENTO>Septiembre 2016</LANZAMIENTO>
+        <GENERO>Musical, Gacha, Narrativo, CCG</GENERO>
+        <COSTE>Gratuito (incluye compras in-game)</COSTE>
+        <REQUISITOS>4GB RAM, 8GB almacenamiento disponible</REQUISITOS>
+        <PLATAFORMA>PC, iOS, Android</PLATAFORMA>
+        <IMAGEN>imagenes/URB/UltimateRapBattleSmall.jpg</IMAGEN>
+        <BANNER>imagenes/URB/URBBanner.jpg</BANNER>
+        <WEB>productos/vistaURB.jsp</WEB>
+        <WEB_OFICIAL_N>https://urb.com/</WEB_OFICIAL_N>
+        <WEB_OFICIAL_E>https://hypnosismic.com</WEB_OFICIAL_E>
+        <FORM>https://hypnosismic.com/contact/</FORM>
+        <SERVER>ONLINE</SERVER>
+        <S_MENSAJE>Sin incidencias</S_MENSAJE>
+    </URB>
+    <!--TERCER JUEGO (KoS)-->
+    <KoS>
+        <TITULO>King of Seven</TITULO>
+        <SIGLAS>KoS</SIGLAS>
+        <FECHA>7 de Julio de 2013</FECHA>
+        <LANZAMIENTO>Julio 2013</LANZAMIENTO>
+        <GENERO>Estrategia, Combate por Turnos, Gacha, Narrativo, CCG</GENERO>
+        <COSTE>Gratuito (incluye compras in-game)</COSTE>
+        <REQUISITOS>2GB RAM, 5GB almacenamiento disponible</REQUISITOS>
+        <PLATAFORMA>PC, iOS, Android</PLATAFORMA>
+        <IMAGEN>imagenes/KoS/KingOfSevenSmall.jpg</IMAGEN>
+        <BANNER>imagenes/KoS/KoSBanner.jpg</BANNER>
+        <WEB>productos/vistaKos.jsp</WEB>
+        <WEB_OFICIAL_N>https://kos.com/</WEB_OFICIAL_N>
+        <WEB_OFICIAL_E>https://www.lordofheroes.com/eu/index.html</WEB_OFICIAL_E>
+        <FORM>monarch@kos.com</FORM>
+        <SERVER>OFFLINE</SERVER>
+        <S_MENSAJE>En mantenimiento hasta el 23/03/2021, 20:00 PST</S_MENSAJE>
+    </KoS>
+</PRODUCTOS>
