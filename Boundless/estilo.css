@@ -1,0 +1,367 @@
+    /*TODO EL DOCUMENTO*/
+    
+    html {
+        font-family: Calibri, Arial, Helvetica, sans-serif;
+    }
+    /*CUERPO*/
+    
+    body {
+        color: #2b2828;
+        background-color: white;
+        border: 0;
+        margin: 0;
+    }
+    /*IMÁGENES*/
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .logo {
+        display: block;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        max-width: 100%;
+    }
+    /*BARRA DE NAVEGACIÓN*/
+    
+    .navbar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        margin: 0em;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        border-bottom: 1px ridge #921635;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px;
+        margin: 0;
+        background-color: #a3183b;
+        position: top;
+        top: 0;
+        width: 100%;
+    }
+    
+    .navbar li {
+        font-size: medium;
+        display: inline;
+        padding: 0em;
+        margin-right: -6px;
+        /*Intentando arreglar el espaciado entre elementos de la lista*/
+    }
+    
+    .navbar li a {
+        color: white;
+        text-align: center;
+        padding: 2em;
+        text-decoration: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .navbar li a:hover {
+        background-color: #69172c;
+    }
+    /*PIE DE PÁGINA*/
+    
+    .pie {
+        font-size: small;
+        margin: 0em;
+        width: 100%;
+        margin: 0em;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .pie ul {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 15px;
+        margin: 0;
+        border: 0;
+        background-color: #a3183b;
+        width: 100%;
+    }
+    
+    .pie li {
+        display: inline;
+    }
+    
+    .pie li a {
+        color: white;
+        text-align: center;
+        padding: 17px;
+        text-decoration: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .pie li a:hover {
+        color: #e2587b;
+    }
+    
+    .pie p {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 15px;
+        background-color: #520d1e;
+        margin: 0;
+        border: 0;
+        color: whitesmoke;
+    }
+    /*ENLACES*/
+    
+    a {
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        color: #a3183b;
+    }
+    /*SECCIÓN*/
+    
+    .seccion {
+        list-style-type: none;
+        overflow: hidden;
+        padding: 15px;
+        font-size: medium;
+        margin: 0em;
+        margin-top: 2em;
+    }
+    
+    .seccion h3 {
+        margin-left: 4em;
+        text-align: left;
+    }
+    
+    .seccion ul {
+        padding-left: 7em;
+        list-style-type: none;
+    }
+    
+    .seccion a {
+        text-decoration: none;
+        font-weight: 600;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    
+    .seccion a:hover {
+        text-decoration: none;
+    }
+    
+    .seccion a:visited {
+        color: #796f71;
+    }
+    
+    .seccion li:before {
+        content: '\2666';
+        font-size: large;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    /*SECCIÓN BLANCA*/
+    
+    .seccionBlanca {
+        background-color: white;
+        color: #2b2828;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+    /*SECCIÓN MARRÓN CASTAÑA*/
+    
+    .cita {
+        margin-top: 5em;
+        padding: 5em;
+        text-align: center;
+    }
+    /*PRODUCTOS*/
+    
+    .productos {
+        color: #a3183b;
+    }
+    
+    .productos h2 {
+        margin-bottom: 0em;
+        padding-bottom: 0em;
+        font-weight: bolder;
+    }
+    
+    .productos p {
+        margin: 0em;
+        padding: 0em;
+        color: #cf6982;
+    }
+    /*TEXTO */
+    
+    .texto {
+        background-color: white;
+        color: #2b2828;
+        padding: 2em;
+        padding-top: 0em;
+        text-align: justify;
+    }
+    
+    .texto h3 {
+        font-weight: 600;
+    }
+    
+    .texto p {
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    
+    .item li {
+        margin-left: 2em;
+        font-weight: 600;
+    }
+    
+    .item li:before {
+        content: '\25FC';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .item {
+        margin-bottom: 1em;
+    }
+    
+    .item p {
+        margin-left: 4em;
+    }
+    
+    .parrafo {
+        margin-top: 2em;
+    }
+    
+    .parrafo p {
+        margin-top: 1em;
+    }
+    
+    .parrafo li {
+        margin-top: 2em;
+        font-weight: 600;
+    }
+    
+    .sangria {
+        padding-left: 3em;
+    }
+    /*Sección derecha de la página de noticias*/
+    
+    .novD {
+        background-color: #a3183b;
+        color: whitesmoke;
+        text-align: center;
+        padding: 2em;
+    }
+    
+    .novD ul {
+        list-style-type: none;
+    }
+    
+    .novD li {
+        text-align: left;
+        padding-left: 2em;
+    }
+    
+    .novD li:before {
+        content: '\26DB';
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+    
+    .novD a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+    .mes li:before {
+        content: '\2666';
+    }
+    /*ARTICULOS*/
+    
+    .articulo {
+        padding-left: 3em;
+        padding-right: 3em;
+        vertical-align: middle;
+        margin: 0;
+        text-align: justify;
+    }
+    
+    .articulo h3 {
+        color: #520d1e;
+    }
+    /*Navegación de la páginas de novedades*/
+    
+    .nav {
+        text-align: center;
+    }
+    /*Nombre de algún juego*/
+    
+    .nombreJuego {
+        font-size: 100px;
+        font-weight: 700;
+        font-family: fantasy;
+    }
+    /*Enlaces visitados en la página de Recursos */
+    
+    .recursos a:visited {
+        color: #a3183b;
+    }
+    /*SLIDESHOW DE JUEGOS*/
+    
+    .mySlides {
+        display: none
+    }
+    
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+    
+    .w3-badge {
+        height: 13px;
+        width: 13px;
+        padding: 0
+    }
+    
+    .slideshow img {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    
+    .enlace {
+        color: #a3183b;
+        text-decoration: underline;
+        cursor: pointer;
+    }
